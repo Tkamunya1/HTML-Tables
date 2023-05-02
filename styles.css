@@ -1,11 +1,26 @@
-th, td {
+th,
+td {
+  border: 2px solid orange;
+  word-break: break-word;
+}
 
-    border: 2px solid orange;
+table {
+  border-collapse: collapse;
+  width: 100%;
+  border-spacing: 3px;
+  table-layout: auto;
+}
 
-  }
+tr:first-child {
+  background-color: yellowgreen;
+}
 
-  table {
+td:last-child {
+  font-style: italic;
+}
 
-    border-collapse: collapse;
-    
-    }
+tr td:first-child {
+  color: red;
+  font-size: x-large;
+  font-weight: bolder;
+}
